@@ -150,6 +150,13 @@ nav a:hover {
   color: #555;
 }
 
+.links a.disabled {
+  pointer-events: none;     /* disables click */
+  opacity: 0.5;             /* faded look */
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
 .links a {
   margin: 10px;
   display: inline-block;
