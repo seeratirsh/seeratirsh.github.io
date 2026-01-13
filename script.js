@@ -1,1 +1,1 @@
-console.log("Portfolio Loaded");
+console.log("Designer portfolio loaded 💗");
