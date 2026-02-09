@@ -3,133 +3,114 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Seerat Irshad | Portfolio</title>
+  <title>Seerat Irshad | Frontend Developer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- NAVBAR -->
-  <nav>
-    <h2>Seerat Irshad</h2>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav class="container">
+      <h2 class="logo">Seerat Irshad</h2>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <!-- HERO -->
-  <section class="hero">
-    <h1>Hi, I’m <span>Seerat Irshad</span></h1>
-    <p>ECE Student • Frontend Developer • MERN Learner</p>
-    <a href="#projects" class="btn">View My Work</a>
+  <section class="hero container">
+    <h1>Frontend Developer building modern web experiences.</h1>
+    <p>
+      ECE Student transitioning into Full-Stack Development with strong
+      foundations in HTML, CSS, JavaScript & API Integration.
+    </p>
+    <a href="#projects" class="btn">View Projects</a>
   </section>
 
   <!-- ABOUT -->
-  <section id="about" class="section">
+  <section id="about" class="section container">
     <h2>About Me</h2>
     <p>
-     Enthusiastic Software Developer with a strong foundation in C, C++, Python,
-    and JavaScript. Skilled in building responsive web applications using HTML,
-    CSS, and Bootstrap, with hands-on experience in API integration and version
-    control using Git and GitHub.
+      I am an Electronics and Communication Engineering student with a strong
+      interest in Software Development and Frontend Engineering. I build
+      responsive and interactive web applications using HTML, CSS, and JavaScript.
     </p>
     <p>
-    Currently pursuing the <strong>Sigma Prime Course</strong> at Apna College,
-    gaining practical exposure to Full-Stack MERN Development and Data Structures
-    & Algorithms (DSA). Completed the <strong>JP Morgan SDE Virtual Internship</strong>,
-    where I applied agile development practices and problem-solving skills to
-    real-world projects.
-  </p>
+      I have developed multiple frontend projects involving API integration,
+      asynchronous JavaScript, and dynamic DOM manipulation. Currently,
+      I am expanding into Backend Development using Node.js and Express.
+    </p>
   </section>
 
   <!-- SKILLS -->
-  <section id="skills" class="section pink">
-    <h2>Skills</h2>
-    <div class="skills">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>Bootstrap</span>
-      <span>Git & GitHub</span>
-      <span>React (Learning)</span>
+  <section id="skills" class="section light">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Bootstrap</span>
+        <span>Git & GitHub</span>
+        <span>API Integration</span>
+        <span>React (Learning)</span>
+        <span>Node.js (Learning)</span>
+      </div>
     </div>
   </section>
 
   <!-- PROJECTS -->
-  <section id="projects" class="section">
+  <section id="projects" class="section container">
     <h2>Projects</h2>
 
-    <div class="project-card">
-      <h3>SPOTIFY CLONE</h3>
-      <p>
-        Built a front-end music streaming interface simulating Spotify UI/UX.
-        Implemented navigation and dynamic playlist features using DOM manipulation.
-        Music player built using HTML, CSS & JavaScript.
-      </p>
-      <div class="links">
-       <a href="https://github.com/seeratirsh/spotify-clone">GitHub</a>
-       <a href="https://seeratirsh.github.io/spotify-clone/">Live Demo</a>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>Spotify Clone</h3>
+        <p>Responsive music streaming UI with playlist navigation and dynamic player controls.</p>
+        <div class="links">
+          <a href="https://github.com/seeratirsh/spotify-clone" target="_blank">GitHub</a>
+          <a href="https://seeratirsh.github.io/spotify-clone/" target="_blank">Live Demo</a>
+        </div>
       </div>
-    </div>
-    <div class="project-card">
-      <h3>MY CAM</h3>
-      <p>
-        Designed a responsive photography portfolio website using Bootstrap grid system.
-        Focused on accessibility, modern UI, and responsive layout design.  
-      </p>
-      <div class="links">
-        <a href="https://github.com/seeratirsh/my-cam">GitHub</a>
-        <a href="https://seeratirsh.github.io/my-cam/">Live Demo</a>
+
+      <div class="project-card">
+        <h3>My Cam</h3>
+        <p>Photography portfolio website built using Bootstrap grid system and modern layout design.</p>
+        <div class="links">
+          <a href="https://github.com/seeratirsh/my-cam" target="_blank">GitHub</a>
+          <a href="https://seeratirsh.github.io/my-cam/" target="_blank">Live Demo</a>
+        </div>
       </div>
-    </div>
-    <div class="project-card">
-      <h3>🐾 Pet Adoption Website</h3>
-      <p>
-        A responsive pet adoption webpage built using HTML, CSS, and JavaScript.  
-        Users can view pets and adopt them interactively with an adoption counter feature.  
-      </p>
-      <div class="links">
-        <a href="https://seeratirsh.github.io/pet-adoption/ add this">GitHub</a>
-        <a href="https://seeratirsh.github.io/pet-adoption/ add this">Live Demo</a>
+
+      <div class="project-card">
+        <h3>Pet Adoption Website</h3>
+        <p>Interactive adoption platform with dynamic counter and JavaScript-based DOM manipulation.</p>
+        <div class="links">
+          <a href="https://github.com/seeratirsh/pet-adoption" target="_blank">GitHub</a>
+          <a href="https://seeratirsh.github.io/pet-adoption/" target="_blank">Live Demo</a>
+        </div>
       </div>
-    </div>
-    <div class="project-card">
-      <h3>SECURITY AND SURVEILLANCE SYSTEM </h3>
-      <p>
-        Developed a motion-sensor-based smart security prototype for real-time
-        intrusion detection.
-        ARDUINO, SENSORS
-      </p>
-      <div class="links">
-        <a href="#">GitHub</a>
-        <a href="#" class="disabled">Live Demo</a>
-      </div>
-    </div>
-    <div class="project-card">
-      <h3>ADVANCED FIRE MANAGEMENT SYSTEM</h3>
-      <p>
-        Created a temperature- and flame-detecting module for automobile safety alerts.
-         ARDUINO, EMBEDDED C
-      </p>
-      <div class="links">
-        <a href="#">GitHub</a>
-        <a href="#" class="disabled">Live Demo</a>
-      </div>
+
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="section pink">
-    <h2>Contact</h2>
-    <p>Email: <strong>seeratirsh@gmail.com</strong></p>
-    <p>GitHub: <strong>github.com/seeratirsh</strong></p>
-    <p>LinkedIn: <strong>www.linkedin.com/in/seerat-irshad-5b1224269</strong></p>
+  <section id="contact" class="section light">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:seeratirsh@gmail.com">seeratirsh@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/seeratirsh" target="_blank">github.com/seeratirsh</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/seerat-irshad-5b1224269" target="_blank">LinkedIn Profile</a></p>
+    </div>
   </section>
 
   <footer>
-    <p>© 2026 Seerat Irshad • Built with 💗</p>
+    <p>© 2026 Seerat Irshad</p>
   </footer>
 
   <script src="script.js"></script>
